@@ -1,12 +1,12 @@
 h1 {
 	font-size: 23px;
-	font-family: 'Satisfy';
-	color: #380436;
+	font-family: 'Poiret One';
+	color: #30538B;
   }
   
   h2 {
 	font-size: 35px;
-	font-family: 'Poiret One';
+	font-family: 'Tangerine';
 	color: #26A9B8;
   }
   
@@ -20,7 +20,7 @@ h1 {
   
   h3 {
 	font-size: 28px;
-	font-family: 'Poiret One';
+	font-family: 'Tangerine';
 	color: #26A9B8;
   }
   
@@ -165,7 +165,7 @@ html, body {
 .expand {
 	transition:min-height 1s ease-in-out, z-index 0.6s ease-in-out, top 1s ease-in-out;
 	transition-delay: 2s;
-	min-height: 550px;
+	min-height: 1025px;
 	z-index: 350;
 	top: -150px;
 	
