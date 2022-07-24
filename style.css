@@ -1,33 +1,36 @@
 h1 {
 	font-size: 23px;
-	font-family: 'Poiret One';
-	color: #30538B;
+	font-family: 'Indie Flower';
+	color: #5f452c;
   }
-  
   h2 {
-	font-size: 35px;
-	font-family: 'Tangerine';
-	color: #26A9B8;
-  }
-  
+	font-size: 20px;
+	font-family: 'Quicksand';
+	color: #c06f23;
+  }  
   h4 {
 	font-size: 16px;
-	font-family: 'Poiret One';
-	color: #30538B;
+	font-family: 'Quicksand';
+	color: #c06f23;
 	padding-right: 15px;
 	padding-left: 15px;
   }
   
   h3 {
 	font-size: 28px;
-	font-family: 'Tangerine';
-	color: #26A9B8;
+	font-family: 'Quicksand';
+	color: #c06f23;
   }
-  
+
+  .text {
+	font-size: 50px;
+    font-family: 'Satisfy';
+}
+
   #section-break {
-	font-size: 17px;
-	font-family: 'Poiret One';
-	color: #26A9B8;
+	font-size: 5px;
+	font-family: 'Quicksand';
+	color: #c06f23;
   }
   
   
@@ -70,7 +73,6 @@ html, body {
 	height: 110%;
 	background:rgb(233, 233, 233);
 	text-align: center;
-	
 }
 
 .container {
