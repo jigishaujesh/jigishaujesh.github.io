@@ -1,17 +1,32 @@
 h1 {
 	font-size: 23px;
-	font-family: 'Indie Flower';
-	color: #5f452c;
+	font-family: 'Lobster';
+	color: #c06f23;
 	margin-top: 10px;
 	margin-bottom: 10px;
   }
-  h2 {
-	font-size: 20px;
-	font-family: 'Quicksand';
+
+h2 {
+	font-size: 30px;
+	font-family: 'Lobster';
 	color: #c06f23;
 	margin-top: 10px;
 	margin-bottom: 10px;
   }  
+  .textCalligraffitti {
+	font-size: 18px;
+	font-family: 'Calligraffitti';
+	color: #c06f23;
+	margin-top: 10px;
+	margin-bottom: 10px;
+  }
+  .textinfromation {
+	font-size: 11px;
+	font-family: 'Quicksand';
+	color: #2c249b;
+	margin-top: 5px;
+	margin-bottom: 5px;
+  }
   h4 {
 	font-size: 16px;
 	font-family: 'Quicksand';
@@ -31,6 +46,12 @@ h1 {
   .text {
 	font-size: 50px;
     font-family: 'Satisfy';
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.customStangaText {
+	font-size: 16px;
+    font-family: 'Calligraffitti';
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
