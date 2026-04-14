@@ -1,78 +1,173 @@
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=600, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Helly's Baby Shower</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Sansita+Swashed" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
-    <style>
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pinnacle Beef — Coming Soon</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      background: #ffffff;
+      font-family: 'Montserrat', sans-serif;
+      color: #1a1a1a;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .content {
+      max-width: 520px;
+      width: 100%;
+      animation: fadeUp 1s ease both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .logo-wrap img {
+      width: 220px;
+      display: block;
+      margin: 0 auto 2rem;
+    }
+
+    .rule {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      justify-content: center;
+      margin-bottom: 2rem;
+    }
+    .rule span {
+      display: block;
+      width: 60px;
+      height: 1px;
+    }
+    .rule span:first-child { background: linear-gradient(to right, transparent, #9a3030); }
+    .rule span:last-child  { background: linear-gradient(to left,  transparent, #9a3030); }
+    .rule-diamond {
+      width: 6px; height: 6px;
+      background: #9a3030;
+      transform: rotate(45deg);
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 52px;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: #1a1a1a;
+      line-height: 1.1;
+      margin-bottom: 0.6rem;
+    }
+
+    .sub {
+      font-size: 11px;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      color: #9a3030;
+      margin-bottom: 1.2rem;
+    }
+
+    .desc {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.9;
+      font-weight: 300;
+      margin-bottom: 2.8rem;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      background: #9a3030;
+      color: #fff;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      padding: 15px 44px;
+      border: 1px solid #9a3030;
+      transition: background 0.3s, color 0.3s;
+      margin-bottom: 3rem;
+    }
+
+    .contact-btn:hover { background: #7a2020; border-color: #7a2020; }
+
+    .contacts {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      border-top: 1px solid #e0e0e0;
+      padding-top: 2rem;
+    }
+
+    .contact-row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      font-size: 13px;
+      color: #555;
+    }
+
+    .contact-row a {
+      color: #9a3030;
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .contact-row a:hover { color: #7a2020; }
+
+    .footer {
+      margin-top: 2.5rem;
+      font-size: 10px;
+      color: #aaa;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+    }
+  </style>
 </head>
-    <body>
-        <div class="container"> 
-            <div class="frame">
-                <div class="message">
-                    <div class="picture">
-                        <img class="stroller" src="BS_image.png" alt="">
-                    </div>
-                    <h1 class="textCalligraffitti">You are invited to</h1>
-                    <span class="extra-info">
-                           <h2> Helly's</h2>
-                            <h2 class="text"> Baby Shower </h2> 
-                            
-                            <h2 class="customStangaText">Ponytail or Spikes, Only Heaven Knows !!!<br>A Bow or A Tie, It will be a Treat !!<br>
-Pink or Blue, We don't have a Clue !!<br>The Best Gift Ever is on the way !!! </h2>
-<br>
+<body>
+  <div class="content">
 
-<h2 class="textCalligraffitti"> We (Manglesh & Helly along with our families) <br> gladly invite you to be one with us as we celebrate the coming of our new baby! </h2>
-                            
-<h2 class="textCalligraffitti"> On Sunday, 28th August 2022</h2>
-                            
-<h2 class="textCalligraffitti"> Time: 10:00 AM Onwards</h2>
-                        <h1>:: Venue ::</h1>
-                        
-<h2 class="textCalligraffitti">  Fusion 6 <br> 230 Cambridge St, Wembley WA 6014, Australia <a class="textinfromation" href="https://www.google.com/maps/place/230+Cambridge+St,+Wembley+WA+6014,+Australia/@-31.9404763,115.8184424" target="_blank">(Get Direction) </a>
-                        </h2>
-                        <h1>:: Awaiting Your Presence ::</h1>
-                        
-<h2 class="textCalligraffitti">  Mr. Manglesh Patel <a style="color:blue;font-size:11px;" href="tel:61404690779">(+61 0404 690 779)</a><br>  Mrs. Helly Patel <a style="color:blue;font-size:11px;" href="tel:610416061720">(+61 0416 061 720)</a></h2> 
-<br>
-<h2 class="textSansitaSwashed" > Please confirm your availability before 10th August, 2022</h2>
-           
-                    </span>
-                </div>
-                <div class="bottom"></div>
-                <div class="left"></div>
-                <div class="right"></div>
-                <div class="top"></div>
+    <div class="logo-wrap">
+      <img src="Logo_PinnacleBeef.png" alt="Pinnacle Beef Logo" />
+    </div>
 
-            </div>
-        </div>
-        <!-- Scripts go here -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>
-            $(document).ready(function () {
+    <div class="rule">
+      <span></span>
+      <div class="rule-diamond"></div>
+      <span></span>
+    </div>
 
-                /*! Fades in page on load */
-                $('body').css('display', 'none');
-                $('body').fadeIn(1200);
+    <h1>Coming<br>Soon</h1>
+    <p class="sub">Something exceptional is on its way</p>
+    <p class="desc">We are crafting a premium experience for you.<br>Our website is currently under construction.</p>
 
-            });
-            $(document).ready(function () {
-                $('.frame').click(function () {
-                    $('.top').addClass('open');
-                    $('.message').addClass('pull expand');
-                    $('.extra-info').addClass('reveal-extra-info');
-                })
-            });
-        </script>
-    </body>
-</html> -->
+    <a href="mailto:Info@Pinnaclebeef.co.za" class="contact-btn">Contact Us</a>
+
+    <div class="contacts">
+      <div class="contact-row">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#9a3030" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+        <a href="mailto:Info@Pinnaclebeef.co.za">Info@Pinnaclebeef.co.za</a>
+      </div>
+      <div class="contact-row">
+        <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#9a3030" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.15 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.05 1.24h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.09 8.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21 16h1z"/></svg>
+        <a href="tel:0875500691">087 550 0691</a>
+      </div>
+    </div>
+
+    <p class="footer">© 2026 Pinnacle Beef — All Rights Reserved</p>
+
+  </div>
+</body>
+</html>
